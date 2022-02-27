@@ -19,7 +19,10 @@ echo "<script>window.location.href ='contact.php'</script>";
 	<head>
 		<title>HMS | Contact us</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js"></script>
 	</head>
 	<body>
 		<!--start-wrap-->
@@ -29,7 +32,8 @@ echo "<script>window.location.href ='contact.php'</script>";
 				<div class="wrap">
 				<!--start-logo-->
 				<div class="logo">
-		<a href="index.html" style="font-size: 30px;">Hospital Management system</a> 
+					<!-- <a href="index.html" style="font-size: 30px;">Hospital Management system</a>  -->
+					<a href="index.html"><img src="images/logo.png"></a> 
 				</div>
 				<!--end-logo-->
 				<!--start-top-nav-->
@@ -47,7 +51,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 		</div>
 		    <div class="clear"> </div>
 		   <div class="wrap">
-		   	<div class="contact">
+		   	<div class="contact contact-space">
 		   	<div class="section group">				
 				<div class="col span_1_of_3">
 					

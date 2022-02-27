@@ -6,8 +6,11 @@
 		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
 		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="css/responsiveslides.css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 		<script src="js/responsiveslides.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/jquery.min.js"></script>
 		  <script>
 		    // You can also use "$(window).load(function() {"
 			    $(function () {
@@ -28,7 +31,8 @@
 				<div class="wrap">
 				<!--start-logo-->
 				<div class="logo">
-					<a href="index.html" style="font-size: 30px;">Hospital Management system</a>
+					<!-- <a href="index.html" style="font-size: 30px;">Hospital Management system</a> -->
+					<a href="index.html"><img src="images/logo.png"></a>
 				</div>
 				<!--end-logo-->
 				<!--start-top-nav-->
@@ -58,7 +62,39 @@
 					<!--End-image-slider---->
 		    <div class="clear"> </div>
 		    <div class="content-grids">
-		    	<div class="wrap">
+		    	<div class="container">
+		    		<div class="row">
+		    			<div class="col-md-4">
+		    				<div class="card">
+		    					<div class="card-body">
+		    						 <img src="images/grid-img3.png">
+		    						 <h3>Patients</h3>
+								  <p>Register & Book Appointment</p>
+								  <div class="button"><span><a href="hms/user-login.php">Click Here</a></span></div>
+		    					</div>
+		    				</div>
+		    			</div>
+		    			<div class="col-md-4">
+		    				<div class="card">
+		    					<div class="card-body">
+		    						<img src="images/grid-img1.png">
+		    						<h3>Doctors Login</h3>
+						  			<div class="button"><span><a href="hms/doctor/">Click Here</a></span></div>
+		    					</div>
+		    				</div>
+		    			</div>
+		    			<div class="col-md-4">
+		    				<div class="card">
+		    					<div class="card-body">
+		    						<img src="images/grid-img2.png">
+		    					  	<h3>Admin Login</h3>
+						  			<div class="button"><span><a href="hms/admin">Click Here</a></span></div>
+		    					</div>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
+		    	<!-- <div class="wrap">
 		    	<div class="section group">
 								
 							
@@ -96,7 +132,7 @@
 				     </div>
 				</div>			
 			</div>
-		    </div>
+		    </div> -->
 		   </div>
 		   <div class="wrap">
 		   <div class="content-box">
