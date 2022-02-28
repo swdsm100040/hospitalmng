@@ -55,8 +55,11 @@ return true;
 		<!-- start: REGISTRATION -->
 		<div class="row">
 			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+				<div class="logo">
+					<a href="index.php"><img src="assets/images/logo.png"></a>
+				</div>
 				<div class="logo margin-top-30">
-				<a href="../index.html"><h2>HMS | Patient Registration</h2></a>
+					<h2>HMS | Patient Registration</h2>
 				</div>
 				<!-- start: REGISTER BOX -->
 				<div class="box-register">
@@ -69,13 +72,13 @@ return true;
 								Enter your personal details below:
 							</p>
 							<div class="form-group">
-								<input type="text" class="form-control" name="full_name" placeholder="Full Name" required>
+								<input type="text" class="form-control new-input" name="full_name" placeholder="Full Name" required>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" name="address" placeholder="Address" required>
+								<input type="text" class="form-control new-input" name="address" placeholder="Address" required>
 							</div>
 							<div class="form-group">
-								<input type="text" class="form-control" name="city" placeholder="City" required>
+								<input type="text" class="form-control new-input" name="city" placeholder="City" required>
 							</div>
 							<div class="form-group">
 								<label class="block">

@@ -21,88 +21,107 @@ echo "<script>window.location.href ='contact.php'</script>";
 		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/jquery.min.js"></script>
 	</head>
 	<body>
-		<!--start-wrap-->
-		
-			<!--start-header-->
 			<div class="header">
-				<div class="wrap">
-				<!--start-logo-->
+				<div class="container">
 				<div class="logo">
-					<!-- <a href="index.html" style="font-size: 30px;">Hospital Management system</a>  -->
-					<a href="index.html"><img src="images/logo.png"></a> 
+					<a href="index.php"><img src="images/logo.png"></a> 
 				</div>
-				<!--end-logo-->
-				<!--start-top-nav-->
 				<div class="top-nav">
 					<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 					
 						<li class="active"><a href="contact.php">contact</a></li>
 					</ul>					
 				</div>
 				<div class="clear"> </div>
-				<!--end-top-nav-->
 			</div>
-			<!--end-header-->
 		</div>
 		    <div class="clear"> </div>
-		   <div class="wrap">
-		   	<div class="contact contact-space">
-		   	<div class="section group">				
-				<div class="col span_1_of_3">
-					
-      			<div class="company_address">
-				     	<h2>Hospital Address  :</h2>
-						    	<p>500 Lorem Ipsum Dolor Sit,</p>
-						   		<p>22-56-2-9 Sit Amet, Lorem,</p>
-						   		<p>India</p>
-				   		<p>Phone:(00) 222 666 444</p>
-				   		<p>Fax: (000) 000 00 00 0</p>
-				 	 	<p>Email: <span>info@mycompany.com</span></p>
-				   	
-				   </div>
-				</div>				
-				<div class="col span_2_of_3">
-				  <div class="contact-form">
-				  	<h2>Contact Us</h2>
-					    <form name="contactus" method="post">
-					    	<div>
-						    	<span><label>NAME</label></span>
-						    	<span><input type="text" name="fullname" required="true" value=""></span>
-						    </div>
-						    <div>
-						    	<span><label>E-MAIL</label></span>
-						    	<span><input type="email" name="emailid" required="ture" value=""></span>
-						    </div>
-						    <div>
-						     	<span><label>MOBILE.NO</label></span>
-						    	<span><input type="text" name="mobileno" required="true" value=""></span>
-						    </div>
-						    <div>
-						    	<span><label>Description</label></span>
-						    	<span><textarea name="description" required="true"> </textarea></span>
-						    </div>
-						   <div>
-						   		<span><input type="submit" name="submit" value="Submit"></span>
-						  </div>
-					    </form>
-				    </div>
-  				</div>				
-			  </div>
+		   <div class="container">
+		   	<div class="contact contact-space mb-5">
+		   		<div class="card">
+		   			<div class="card-body">
+		   				<div class="row">
+		   					<div class="col-md-12 text-center pb-5">
+		   					<h2>Contact Us</h2>
+		   				</div>
+		   				<div class="col-md-4">
+		   					<div class="card text-white bg-info mb-4 text-center">
+		   						<div class="card-body">
+		   							<div class="company-detail">
+		   								<i class="bi bi-house-door-fill"></i>
+		   								<p>500 Lorem Ipsum Dolor Sit,22-56-2-9 Sit Amet, Lorem,India</p>
+		   							</div>
+		   						</div>
+		   					</div>
+		   				</div>
+		   				<div class="col-md-4">
+		   					<div class="card text-white bg-info mb-4 text-center">
+		   						<div class="card-body">
+		   							<div class="company-detail">
+		   								<i class="bi bi-telephone-fill"></i>
+		   								<p class="mb-0">Phone:(00) 222 666 444</p>
+		   								<p>Fax: (000) 000 00 00 0</p>
+		   							</div>
+		   						</div>
+		   					</div>
+		   				</div>
+		   				<div class="col-md-4">
+		   					<div class="card text-white bg-info mb-4 text-center">
+		   						<div class="card-body pb-5">
+		   							<div class="company-detail">
+		   								<i class="bi bi-envelope-fill"></i>
+		   								<p>Email: <span>info@mycompany.com</span></p>
+		   							</div>
+		   						</div>
+		   					</div>
+		   				</div>
+		   				<div class="col-md-6">
+		   					<form name="contactus" method="post" class="contact-form">
+							  <div class="form-group">
+							    <label>NAME</label>
+							    <input type="text" class="form-control" name="fullname" required="true" value="" placeholder="Enter Name">
+							  </div>
+							  <div class="form-group">
+							    <label>E-MAIL</label>
+							    <input type="email" class="form-control" name="emailid" required="ture" value="" placeholder="Enter Email Id">
+							  </div>
+							  <div class="form-group">
+							    <label>MOBILE.NO</label>
+							    <input type="number" class="form-control" name="mobileno" required="true" value="" placeholder="Enter Mobile No.">
+							  </div>
+							  <div class="form-group">
+							    <label>Description</label>
+							    <textarea  class="form-control" name="description" required="true" rows="3"></textarea>
+							  </div>
+							  <div class="text-center">
+							  	<button type="submit" class="btn btn-info">Submit</button>
+							  </div>
+							</form>
+		   				</div>
+		   				<div class="col-md-6">
+		   					<div class="map">
+		   						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7089488195875!2d-117.70412318530067!3d34.05133632522625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3324f67bbfa39%3A0xf2042b6c3826c96f!2s3936%20W%20Clair%20St%2C%20Ontario%2C%20CA%2091762%2C%20USA!5e0!3m2!1sen!2sin!4v1646054368329!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+		   					</div>
+		   				</div>
+		   				</div>
+		   			</div>
+		   		</div>
 			  	 <div class="clear"> </div>
 	</div>
 	<div class="clear"> </div>
 			</div>
 	      <div class="clear"> </div>
 		   <div class="footer">
-		   	 <div class="wrap">
+		   	 <div class="container">
 		   	<div class="footer-left">
 		   			<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 						
 						<li><a href="contact.php">contact</a></li>
 					</ul>

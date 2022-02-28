@@ -9362,6 +9362,9 @@ nav.links a {
 .main-login {
   margin-top: 0;
   position: relative;
+  background-color: #f7f7f7;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
 }
 @media (max-width: 991px) {
   .main-login {
@@ -9370,6 +9373,7 @@ nav.links a {
 }
 .main-login .logo {
   padding: 0 10px;
+  text-align: center;
 }
 .main-login .box-login, .main-login .box-forgot, .main-login .box-register {
   background: #FFFFFF;
@@ -11395,4 +11399,16 @@ td.small-width {
 
 [date-picker] .disabled.active, [date-picker] .disabled.now {
   color: #ffffff !important;
+}
+
+.input-icon input{
+  height: 43px;
+    border-radius: 4px !important;
+    background-color: #dfdfdfc2;
+    padding-left: 40px !important;
+}
+.input-icon i{
+    color: #000000 !important;
+    top: 4px !important;
+    font-size: 24px !important;
 }
