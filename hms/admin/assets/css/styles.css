@@ -387,6 +387,7 @@ h5.over-title {
 .navbar .navbar-header .navbar-brand img {
   display: inline-block;
   margin-top: -6px;
+  width: 195px;
 }
 .navbar .navbar-header .menu-toggler {
   margin-right: 60px;
@@ -1001,7 +1002,8 @@ h5.over-title {
 #sidebar > div nav > ul {
   background: #ffffff;
   list-style: none;
-  margin: 10px 0;
+  /*margin: 10px 0;*/
+  margin: 0px 0;
   padding: 0;
   border-top: 1px solid #c8c7cc;
   border-bottom: 1px solid #c8c7cc;
@@ -4606,15 +4608,17 @@ textarea, select, input[type="text"], input[type="password"], input[type="dateti
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #FFFFFF;
+  /*background-color: #FFFFFF;*/
+  background-color: #f3f3f3 !important;
   background-image: none;
   border: 1px solid #c8c7cc;
-  border-radius: 0 0 0 0 !important;
+  /*border-radius: 0 0 0 0 !important;*/
+  border-radius: 4px;
   color: #5b5b60;
   font-family: inherit;
   font-size: 14px;
   line-height: 1.2;
-  padding: 5px 4px;
+  padding: 5px 12px;
   transition-duration: 0.1s;
   box-shadow: none !important;
   -webkit-transition: 300ms ease-in-out;
@@ -4622,6 +4626,7 @@ textarea, select, input[type="text"], input[type="password"], input[type="dateti
   -ms-transition: 300ms ease-in-out;
   -o-transition: 300ms ease-in-out;
   transition: 300ms ease-in-out;
+  height: 45px !important;
 }
 textarea:hover, select:hover, input[type="text"]:hover, input[type="password"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="date"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover, input[type="number"]:hover, input[type="email"]:hover, input[type="url"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="color"]:hover {
   border-color: #aeacb4;
@@ -4843,8 +4848,9 @@ span.input-help > input {
 select.form-control {
   background-color: #FFFFFF;
   border: 1px solid #c8c7cc;
-  border-radius: 0 0 0 0;
-  color: #5b5b60;
+  border-radius: 4px;
+    color: #5b5b60;
+    height: 44px;
 }
 
 select.form-control option {
@@ -9360,7 +9366,7 @@ nav.links a {
 /*  Login
 /* ---------------------------------------------------------------------- */
 .main-login {
-  margin-top: 0;
+  margin-top: 60px;
   position: relative;
   background-color: #f7f7f7;
     border: 1px solid rgba(0,0,0,.125);
