@@ -498,6 +498,7 @@ h5.over-title {
   .app-sidebar-fixed .navbar .navbar-header {
     position: fixed;
     top: 0;
+    background-color: #fff !important;
   }
 }
 .navbar .close-handle {
@@ -4577,7 +4578,7 @@ fieldset .form-group {
 fieldset legend {
   background: inherit;
   font-family: "Lato", sans-serif;
-  color: #007AFF;
+  color: #b72533;
   font-size: 15px;
   left: 10px;
   padding: 0 10px;
@@ -5812,8 +5813,10 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .btn-primary {
-  background-color: #007AFF;
-  border-color: #007AFF;
+  /*background-color: #007AFF;
+  border-color: #007AFF;*/
+  background-color: #043d5d;
+  border-color: #043d5d;
   color: #ffffff;
 }
 .open .btn-primary.dropdown-toggle {
@@ -5821,8 +5824,10 @@ input[type="radio"], input[type="checkbox"] {
   border-color: #4da2ff;
 }
 .btn-primary:hover {
-  background-color: #3395ff !important;
-  border-color: #3395ff;
+  /*background-color: #3395ff !important;
+  border-color: #3395ff;*/
+  background-color: #be3c49 !important;
+  border-color: #be3c49;
   color: #ffffff;
 }
 .btn-primary:active, .btn-primary.active, .btn-primary.active:focus, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.dropdown-toggle:active:hover {
@@ -9364,11 +9369,15 @@ nav.links a {
 /*  Login
 /* ---------------------------------------------------------------------- */
 .main-login {
-  margin-top: 0;
+  margin-top: 50px;
   position: relative;
   background-color: #f7f7f7;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 0.25rem;
+}
+.main-login .logo h2 {
+    color: #043d5d;
+    font-weight: 500;
 }
 @media (max-width: 991px) {
   .main-login {
@@ -11421,4 +11430,7 @@ td.small-width {
   height: 43px;
     border-radius: 4px !important;
     background-color: #dfdfdfc2 !important;
+}
+.main-login .logo a img {
+    width: 40%;
 }

@@ -97,7 +97,7 @@
 		   </div>
 		   <div class="Features-main-div">
 		   		<div class="container">
-		   			<h3 class="text-center py-5 font-weight-bold">Core Features of Complete  Multi HMS</h3>
+		   			<h3 class="text-center py-5 font-weight-bold">Core Features of Complete HMS</h3>
 		   			<div class="row">
 		   				<div class="col-md-6 pb-3">
 		   					<p><b>1 : </b>Doctor Database <span class="complete">(Complete)</span></p>

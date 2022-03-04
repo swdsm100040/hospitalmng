@@ -61,7 +61,7 @@ check_login();
 								<div class="col-sm-4">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
-											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
 											<h2 class="StepTitle">Manage Users</h2>
 											
 											<p class="links cl-effect-1">
@@ -79,7 +79,7 @@ $num_rows = mysqli_num_rows($result);
 								<div class="col-sm-4">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
-											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-users fa-stack-1x fa-inverse"></i> </span>
 											<h2 class="StepTitle">Manage Doctors</h2>
 										
 											<p class="cl-effect-1">
@@ -98,7 +98,7 @@ $num_rows1 = mysqli_num_rows($result1);
 								<div class="col-sm-4">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
-											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
 											<h2 class="StepTitle"> Appointments</h2>
 											
 											<p class="links cl-effect-1">
@@ -119,7 +119,7 @@ $num_rows2 = mysqli_num_rows($sql);
 <div class="col-sm-4">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
-											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x text-primary"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
+											<span class="fa-stack fa-2x"> <i class="fa fa-square fa-stack-2x"></i> <i class="fa fa-smile-o fa-stack-1x fa-inverse"></i> </span>
 											<h2 class="StepTitle">Manage Patients</h2>
 											
 											<p class="links cl-effect-1">
@@ -143,7 +143,7 @@ Total Patients :<?php echo htmlentities($num_rows);
 			<div class="col-sm-4">
 									<div class="panel panel-white no-radius text-center">
 										<div class="panel-body">
-											<span class="fa-stack fa-2x"> <i class="ti-files fa-1x text-primary"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
+											<span class="fa-stack fa-2x"> <i class="ti-files fa-1x"></i> <i class="fa fa-terminal fa-stack-1x fa-inverse"></i> </span>
 											<h2 class="StepTitle"> New Queries</h2>
 											
 											<p class="links cl-effect-1">

@@ -498,6 +498,7 @@ h5.over-title {
   .app-sidebar-fixed .navbar .navbar-header {
     position: fixed;
     top: 0;
+    background-color: white !important;
   }
 }
 .navbar .close-handle {
@@ -4578,7 +4579,7 @@ fieldset .form-group {
 fieldset legend {
   background: inherit;
   font-family: "Lato", sans-serif;
-  color: #007AFF;
+  color: #b72533;
   font-size: 15px;
   left: 10px;
   padding: 0 10px;
@@ -5814,8 +5815,10 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 .btn-primary {
-  background-color: #007AFF;
-  border-color: #007AFF;
+  /*background-color: #007AFF;
+  border-color: #007AFF;*/ 
+  background-color: #043d5d;
+  border-color: #043d5d;
   color: #ffffff;
 }
 .open .btn-primary.dropdown-toggle {
@@ -5823,8 +5826,10 @@ input[type="radio"], input[type="checkbox"] {
   border-color: #4da2ff;
 }
 .btn-primary:hover {
-  background-color: #3395ff !important;
-  border-color: #3395ff;
+  /*background-color: #3395ff !important;
+  border-color: #3395ff;*/
+  background-color: #be3c49 !important;
+  border-color: #be3c49;
   color: #ffffff;
 }
 .btn-primary:active, .btn-primary.active, .btn-primary.active:focus, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary.dropdown-toggle:active:hover {
@@ -11417,4 +11422,11 @@ td.small-width {
     color: #000000 !important;
     top: 4px !important;
     font-size: 24px !important;
+}
+.main-login .logo a img {
+    width: 40%;
+}
+.main-login .logo h2 {
+    color: #043d5d;
+    font-weight: 500;
 }
