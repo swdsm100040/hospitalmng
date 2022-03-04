@@ -29,7 +29,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 			<div class="header">
 				<div class="container">
 				<div class="logo">
-					<a href="index.php"><img src="images/logo.png"></a> 
+					<a href="index.php"><img src="images/hms_logo.png"></a> 
 				</div>
 				<div class="top-nav">
 					<ul>
@@ -51,7 +51,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 		   					<h2>Contact Us</h2>
 		   				</div>
 		   				<div class="col-md-4">
-		   					<div class="card text-white bg-info mb-4 text-center">
+		   					<div class="card text-white contact-card mb-4 text-center">
 		   						<div class="card-body">
 		   							<div class="company-detail">
 		   								<i class="bi bi-house-door-fill"></i>
@@ -61,7 +61,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 		   					</div>
 		   				</div>
 		   				<div class="col-md-4">
-		   					<div class="card text-white bg-info mb-4 text-center">
+		   					<div class="card text-white contact-card mb-4 text-center">
 		   						<div class="card-body">
 		   							<div class="company-detail">
 		   								<i class="bi bi-telephone-fill"></i>
@@ -72,7 +72,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 		   					</div>
 		   				</div>
 		   				<div class="col-md-4">
-		   					<div class="card text-white bg-info mb-4 text-center">
+		   					<div class="card text-white contact-card mb-4 text-center">
 		   						<div class="card-body pb-5">
 		   							<div class="company-detail">
 		   								<i class="bi bi-envelope-fill"></i>
@@ -100,7 +100,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 							    <textarea  class="form-control" name="description" required="true" rows="3"></textarea>
 							  </div>
 							  <div class="text-center">
-							  	<button type="submit" class="btn btn-info">Submit</button>
+							  	<button type="submit" class="btn contact-form-btn">Submit</button>
 							  </div>
 							</form>
 		   				</div>
