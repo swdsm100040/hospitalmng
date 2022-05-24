@@ -87,7 +87,7 @@ function getfee(val) {
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User | Book Appointment</h1>
+									<h1 class="mainTitle">Patient| Book Appointment</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
@@ -103,7 +103,6 @@ function getfee(val) {
 						<div class="container-fluid container-fullw bg-white">
 							<div class="row">
 								<div class="col-md-12">
-									
 									<div class="row margin-top-30">
 										<div class="col-lg-8 col-md-12">
 											<div class="panel panel-white">

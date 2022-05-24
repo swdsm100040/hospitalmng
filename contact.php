@@ -20,6 +20,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 		<title>HMS | Contact us</title>
 		<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 		<link href='http://fonts.googleapis.com/css?family=Ropa+Sans' rel='stylesheet' type='text/css'>
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
 		<script src="js/bootstrap.min.js"></script>
@@ -54,19 +55,19 @@ echo "<script>window.location.href ='contact.php'</script>";
 		   					<div class="card text-white contact-card mb-4 text-center">
 		   						<div class="card-body">
 		   							<div class="company-detail">
-		   								<i class="bi bi-house-door-fill"></i>
-		   								<p>500 Lorem Ipsum Dolor Sit,22-56-2-9 Sit Amet, Lorem,India</p>
+		   								<i class="fa fa-hospital-o" aria-hidden="true"></i>
+		   								<p>Rao Saheb, Achutrao Patwardhan Marg, Four Bungalows, Andheri West, Mumbai, Maharashtra 400053</p>
 		   							</div>
 		   						</div>
 		   					</div>
 		   				</div>
 		   				<div class="col-md-4">
 		   					<div class="card text-white contact-card mb-4 text-center">
-		   						<div class="card-body">
+		   						<div class="card-body pb-5">
 		   							<div class="company-detail">
 		   								<i class="bi bi-telephone-fill"></i>
-		   								<p class="mb-0">Phone:(00) 222 666 444</p>
-		   								<p>Fax: (000) 000 00 00 0</p>
+		   								<p class="mb-0">Phone:(022)200511202055 </p>
+		   								<p>    </p>
 		   							</div>
 		   						</div>
 		   					</div>
@@ -76,7 +77,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 		   						<div class="card-body pb-5">
 		   							<div class="company-detail">
 		   								<i class="bi bi-envelope-fill"></i>
-		   								<p>Email: <span>info@mycompany.com</span></p>
+		   								<p>Email: <span>info@Hospital.com</span></p>
 		   							</div>
 		   						</div>
 		   					</div>
@@ -96,7 +97,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 							    <input type="number" class="form-control" name="mobileno" required="true" value="" placeholder="Enter Mobile No.">
 							  </div>
 							  <div class="form-group">
-							    <label>Description</label>
+							    <label> Any Queries?</label>
 							    <textarea  class="form-control" name="description" required="true" rows="3"></textarea>
 							  </div>
 							  <div class="text-center">
@@ -106,7 +107,7 @@ echo "<script>window.location.href ='contact.php'</script>";
 		   				</div>
 		   				<div class="col-md-6">
 		   					<div class="map">
-		   						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3305.7089488195875!2d-117.70412318530067!3d34.05133632522625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3324f67bbfa39%3A0xf2042b6c3826c96f!2s3936%20W%20Clair%20St%2C%20Ontario%2C%20CA%2091762%2C%20USA!5e0!3m2!1sen!2sin!4v1646054368329!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+		   						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230611.62353660242!2d72.80450514209802!3d19.051941726010714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b61ed7e04c69%3A0x3860c51257a72c24!2sKokilaben%20Dhirubhai%20Ambani%20Hospital%20and%20Medical%20Research%20Institute!5e0!3m2!1sen!2sin!4v1648644855540!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 		   					</div>
 		   				</div>
 		   				</div>

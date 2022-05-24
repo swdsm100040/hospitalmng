@@ -3,10 +3,7 @@
 
 <nav>
 						
-						<!-- start: MAIN NAVIGATION MENU -->
-						<!-- <div class="navbar-title">
-							<span>Main Navigation</span>
-						</div> -->
+						
 						<ul class="main-navigation-menu">
 							<li>
 								<a href="dashboard.php">
@@ -32,11 +29,11 @@
 									</div>
 								</a>
 								<ul class="sub-menu">
-									<li>
+									<!-- <li>
 										<a href="doctor-specilization.php">
 											<span class="title"> Doctor Specialization </span>
 										</a>
-									</li>
+									</li> -->
 									<li>
 										<a href="add-doctor.php">
 											<span class="title"> Add Doctor</span>
@@ -51,17 +48,6 @@
 								</ul>
 								</li>
 
-				<li>
-								<a href="javascript:void(0)">
-									<div class="item-content">
-										<div class="item-media">
-											<i class="ti-user"></i>
-										</div>
-										<div class="item-inner">
-											<span class="title"> Users </span><i class="icon-arrow"></i>
-										</div>
-									</div>
-								</a>
 								<ul class="sub-menu">
 									
 									<li>
@@ -139,33 +125,11 @@
 
 
 
-	<li>
-								<a href="doctor-logs.php">
-									<div class="item-content">
-										<div class="item-media">
-											<i class="ti-list"></i>
-										</div>
-										<div class="item-inner">
-											<span class="title"> Doctor Session Logs </span>
-										</div>
-									</div>
-								</a>
-							</li>		
+	
 
 
 
-							<li>
-								<a href="user-logs.php">
-									<div class="item-content">
-										<div class="item-media">
-											<i class="ti-list"></i>
-										</div>
-										<div class="item-inner">
-											<span class="title"> User Session Logs </span>
-										</div>
-									</div>
-								</a>
-							</li>						
+													
 				<li>
 								<a href="javascript:void(0)">
 									<div class="item-content">
@@ -195,7 +159,7 @@
 											<i class="ti-search"></i>
 										</div>
 										<div class="item-inner">
-											<span class="title"> Patient Search </span>
+											<span class="title">  Search </span>
 										</div>
 									</div>
 								</a>
@@ -203,7 +167,7 @@
 								</li>
 
 						</ul>
-						<!-- end: CORE FEATURES -->
+						
 						
 					</nav>
 					</div>

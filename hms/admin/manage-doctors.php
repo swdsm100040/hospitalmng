@@ -17,6 +17,7 @@ if(isset($_GET['del']))
 	<head>
 		<title>Admin | Manage Doctors</title>
 		
+</html>
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
@@ -39,10 +40,10 @@ if(isset($_GET['del']))
 				
 						<?php include('include/header.php');?>
 					
-				<!-- end: TOP NAVBAR -->
+				 
 				<div class="main-content" >
 					<div class="wrap-content container" id="container">
-						<!-- start: PAGE TITLE -->
+						
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
@@ -58,8 +59,7 @@ if(isset($_GET['del']))
 								</ol>
 							</div>
 						</section>
-						<!-- end: PAGE TITLE -->
-						<!-- start: BASIC EXAMPLE -->
+						
 						<div class="container-fluid container-fullw bg-white">
 						
 
@@ -138,30 +138,26 @@ $cnt=$cnt+1;
 								</div>
 							</div>
 						</div>
-						<!-- end: BASIC EXAMPLE -->
-						<!-- end: SELECT BOXES -->
+					
 						
 					</div>
 				</div>
 			</div>
-			<!-- start: FOOTER -->
-	<?php include('include/footer.php');?>
-			<!-- end: FOOTER -->
 		
-			<!-- start: SETTINGS -->
+	<?php include('include/footer.php');?>
+			
 	<?php include('include/setting.php');?>
 			
-			<!-- end: SETTINGS -->
+			
 		</div>
-		<!-- start: MAIN JAVASCRIPTS -->
+		
 		<script src="vendor/jquery/jquery.min.js"></script>
 		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 		<script src="vendor/modernizr/modernizr.js"></script>
 		<script src="vendor/jquery-cookie/jquery.cookie.js"></script>
 		<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
 		<script src="vendor/switchery/switchery.min.js"></script>
-		<!-- end: MAIN JAVASCRIPTS -->
-		<!-- start: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
+		
 		<script src="vendor/maskedinput/jquery.maskedinput.min.js"></script>
 		<script src="vendor/bootstrap-touchspin/jquery.bootstrap-touchspin.min.js"></script>
 		<script src="vendor/autosize/autosize.min.js"></script>
@@ -170,10 +166,9 @@ $cnt=$cnt+1;
 		<script src="vendor/select2/select2.min.js"></script>
 		<script src="vendor/bootstrap-datepicker/bootstrap-datepicker.min.js"></script>
 		<script src="vendor/bootstrap-timepicker/bootstrap-timepicker.min.js"></script>
-		<!-- end: JAVASCRIPTS REQUIRED FOR THIS PAGE ONLY -->
-		<!-- start: CLIP-TWO JAVASCRIPTS -->
+		
 		<script src="assets/js/main.js"></script>
-		<!-- start: JavaScript Event Handlers for this page -->
+		
 		<script src="assets/js/form-elements.js"></script>
 		<script>
 			jQuery(document).ready(function() {
@@ -181,7 +176,6 @@ $cnt=$cnt+1;
 				FormElements.init();
 			});
 		</script>
-		<!-- end: JavaScript Event Handlers for this page -->
-		<!-- end: CLIP-TWO JAVASCRIPTS -->
+		
 	</body>
 </html>

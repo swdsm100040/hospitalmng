@@ -13,7 +13,7 @@ if(isset($_GET['cancel']))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>User | Appointment History</title>
+		<title>Patient | Appointment History</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -37,14 +37,14 @@ if(isset($_GET['cancel']))
 				
 
 					<?php include('include/header.php');?>
-				<!-- end: TOP NAVBAR -->
+				
 				<div class="main-content" >
 					<div class="wrap-content container" id="container">
-						<!-- start: PAGE TITLE -->
+						
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User  | Appointment History</h1>
+									<h1 class="mainTitle">Patient | Appointment History</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
@@ -56,8 +56,7 @@ if(isset($_GET['cancel']))
 								</ol>
 							</div>
 						</section>
-						<!-- end: PAGE TITLE -->
-						<!-- start: BASIC EXAMPLE -->
+						
 						<div class="container-fluid container-fullw bg-white">
 						
 
@@ -164,17 +163,13 @@ $cnt=$cnt+1;
 							</div>
 								</div>
 						
-						<!-- end: BASIC EXAMPLE -->
-						<!-- end: SELECT BOXES -->
-						
+					
 					</div>
 				</div>
 			</div>
-			<!-- start: FOOTER -->
+			
 	<?php include('include/footer.php');?>
-			<!-- end: FOOTER -->
-		
-			<!-- start: SETTINGS -->
+			
 	<?php include('include/setting.php');?>
 			
 			<!-- end: SETTINGS -->

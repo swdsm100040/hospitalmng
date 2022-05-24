@@ -17,7 +17,7 @@
 					<!-- start: FIXED SIDEBAR -->
 					<div class="setting-box clearfix">
 						<span class="setting-title pull-left">Fixed sidebar</span>
-						<span class="setting-switch pull-right">
+						<span class=Physician"setting-switch pull-right">
 							<input type="checkbox" class="js-switch" id="fixed-sidebar" />
 						</span>
 					</div>

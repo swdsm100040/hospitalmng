@@ -53,13 +53,13 @@ return true;
 
 	<body class="login">
 		<!-- start: REGISTRATION -->
-		<div class="row">
-			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4">
+		<div class="row"style="background-color: blue">
+			<div class="main-login col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2 col-md-4 col-md-offset-4"style="margin-bottom: 100px; border-radius: 50px">
 				<div class="logo">
-					<a href="index.php"><img src="assets/images/hms_logo.png"></a>
+					<a href="index.php"><img src="../images/hms_logo.png"></a>
 				</div>
 				<div class="logo margin-top-30">
-					<h2>HMS | Patient Registration</h2>
+					<h2>Patient Registration</h2>
 				</div>
 				<!-- start: REGISTER BOX -->
 				<div class="box-register">

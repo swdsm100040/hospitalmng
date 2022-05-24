@@ -7,8 +7,9 @@
 						</a>
 						<a class="navbar-brand" href="#">
 							<!-- <h2 style="padding-top:20% ">HMS</h2> -->
-							<h2 style="padding-top: 11%;color: #b72533;text-align: center;font-weight: 500; padding-left: 76px;">HMS</h2>
-							<!-- <img src="assets/images/logo.png"> -->
+							<h2 style="padding-top: 11%;color: #b72533;text-align: center;font-weight: 500; padding: 20px; font-size:20px">HMS</h2>
+							<!-- <img src="../images/hms_logo.png" class="dashborad-logo"/> -->
+							
 						</a>
 						<a href="#" class="sidebar-toggler pull-right visible-md visible-lg" data-toggle-class="app-sidebar-closed" data-toggle-target="#app">
 							<i class="ti-align-justify"></i>

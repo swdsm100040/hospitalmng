@@ -1,13 +1,13 @@
 <?php error_reporting(0);?>
 <header class="navbar navbar-default navbar-static-top">
-					<!-- start: NAVBAR HEADER -->
 					<div class="navbar-header">
 						<a href="#" class="sidebar-mobile-toggler pull-left hidden-md hidden-lg" class="btn btn-navbar sidebar-toggle" data-toggle-class="app-slide-off" data-toggle-target="#app" data-toggle-click-outside="#sidebar">
 							<i class="ti-align-justify"></i>
 						</a>
 						<a class="navbar-brand" href="#">
-							<h2 style="padding-top: 11%;color: #b72533;text-align: center;font-weight: 500; padding-left: 76px;">HMS</h2>
-							<!-- <img src="assets/images/logo.png"> -->
+							<h2 style="padding-top: 11%;color: #b72533;text-align: center;font-weight: 500; padding-left: 20px;">
+							HMS</h2>
+						
 						</a>
 						<a href="#" class="sidebar-toggler pull-right visible-md visible-lg" data-toggle-class="app-sidebar-closed" data-toggle-target="#app">
 							<i class="ti-align-justify"></i>
@@ -17,8 +17,6 @@
 							<i class="ti-view-grid"></i>
 						</a>
 					</div>
-					<!-- end: NAVBAR HEADER -->
-					<!-- start: NAVBAR COLLAPSE -->
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-right">
 							<!-- start: MESSAGES DROPDOWN -->
@@ -59,16 +57,13 @@ while($row=mysqli_fetch_array($query))
 									</li>
 								</ul>
 							</li>
-							<!-- end: USER OPTIONS DROPDOWN -->
+							
 						</ul>
-						<!-- start: MENU TOGGLER FOR MOBILE DEVICES -->
 						<div class="close-handle visible-xs-block menu-toggler" data-toggle="collapse" href=".navbar-collapse">
 							<div class="arrow-left"></div>
 							<div class="arrow-right"></div>
 						</div>
-						<!-- end: MENU TOGGLER FOR MOBILE DEVICES -->
 					</div>
 				
 					
-					<!-- end: NAVBAR COLLAPSE -->
 				</header>

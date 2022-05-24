@@ -38,10 +38,10 @@ if(isset($_GET['del']))
 				
 						<?php include('include/header.php');?>
 						
-				<!-- end: TOP NAVBAR -->
+				
 				<div class="main-content" >
 					<div class="wrap-content container" id="container">
-						<!-- start: PAGE TITLE -->
+						
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
@@ -57,8 +57,7 @@ if(isset($_GET['del']))
 								</ol>
 							</div>
 						</section>
-						<!-- end: PAGE TITLE -->
-						<!-- start: BASIC EXAMPLE -->
+						
 						<div class="container-fluid container-fullw bg-white">
 						
 

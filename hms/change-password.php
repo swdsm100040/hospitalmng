@@ -8,11 +8,11 @@ date_default_timezone_set('Asia/Kolkata');// change according timezone
 $currentTime = date( 'd-m-Y h:i:s A', time () );
 if(isset($_POST['submit']))
 {
-$sql=mysqli_query($con,"SELECT password FROM  users where password='".md5($_POST['cpass'])."' && id='".$_SESSION['id']."'");
+$sql=mysqli_query($con,"SELECT password FROM  users where password='".($_POST['cpass'])."' && id='".$_SESSION['id']."'");
 $num=mysqli_fetch_array($sql);
 if($num>0)
 {
- $con=mysqli_query($con,"update users set password='".md5($_POST['npass'])."', updationDate='$currentTime' where id='".$_SESSION['id']."'");
+ $con=mysqli_query($con,"update users set password='".($_POST['npass'])."', updationDate='$currentTime' where id='".$_SESSION['id']."'");
 $_SESSION['msg1']="Password Changed Successfully !!";
 }
 else
@@ -24,7 +24,7 @@ $_SESSION['msg1']="Old Password not match !!";
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>User  | change Password</title>
+		<title>Patient | change Password</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Lato:300,400,400italic,600,700|Raleway:300,400,500,600,700|Crete+Round:400italic" rel="stylesheet" type="text/css" />
 		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
@@ -86,7 +86,7 @@ return true;
 						<section id="page-title">
 							<div class="row">
 								<div class="col-sm-8">
-									<h1 class="mainTitle">User | Change Password</h1>
+									<h1 class="mainTitle">Patient | Change Password</h1>
 																	</div>
 								<ol class="breadcrumb">
 									<li>
